@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Montserrat:wght@400;500&family=Poppins&family=Roboto:wght@500&family=Ruda&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    background: #1D1D23;
+    color: #ffffff;
+}
+
+#main_container {
+    width: 50vw;
+    min-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    margin-inline: auto;
+}
+
+
+#set_timer_container {
+    border-radius: 20px;
+    background: #34344A;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#timer {
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+}
+
+#timer input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 50px;
+    outline: none;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+
+#set_timer_btn {
+    border-radius: 26px;
+    background: #F0F757;
+    border: none;
+    padding: 5px 25px;
+}
+
+#current_timers {
+    border-radius: 50px;
+    background: #39393E;
+    padding: 10px 60px;
+}
+
+#timers_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.timer_card {
+    border-radius: 20px;
+    background: #34344A;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.timer_card .remaining_time {
+    font-size: 30px;
+}
+
+.timer_card .stop_btn {
+    border-radius: 26px;
+    background: #F0F757;
+    border: none;
+    padding: 5px 25px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.stop_card {
+    border-radius: 20px;
+    background: #F0F757;
+    color: #34344A;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.stop_card .stop_btn {
+    border-radius: 26px;
+    background: #34344A;
+    color: white;
+    border: none;
+    padding: 5px 25px;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
